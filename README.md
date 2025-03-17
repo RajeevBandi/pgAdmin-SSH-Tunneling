@@ -16,6 +16,13 @@
 2. Right-click on **Servers** → **Create** → **Server**.
 3. **General Tab:**
    - **Name:** `RDS-via-Bastion` (or any name for your server).
+<br>
+
+![Create-Server](Images/Create-Server.png)
+
+<br>
+
+![General tab](Images/General-tab.png)
 
 ---
 
@@ -27,10 +34,19 @@
 4. **Username:** Enter your **PostgreSQL username**.
 5. **Password:** Enter your **PostgreSQL password**.
 
+<br>
+
+![Connection Tab](Images/Connection-tab.png)
+
 ---
 
 ### 1.3 Parameters Tab
 1. **SSL Mode:** `Require` (for security).
+
+   
+ <br>
+
+![Parameters Tab](Images/Parameters-tab.png)
 
 ---
 
@@ -44,6 +60,14 @@
 5. **Authentication method:** `Identity file`.
 6. **Identity file:**
    - Click **Browse** and select your **private key** (`.pem` file).
+  
+ <br>
+
+![SSH Tunnel](Images/SSH-Tunnel.png)
+
+ <br>
+
+![AWS Config](Images/AWS-config.png)
 
 ---
 
