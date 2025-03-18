@@ -3,7 +3,7 @@
 ## Prerequisites
 1. **AWS RDS PostgreSQL** instance (running and accessible from the Bastion).
 2. **Bastion Host** (EC2 instance) (running and accessible from your local machine).
-3. **pgAdmin** installed on your local system.
+3. **pgAdmin** installed on your local system (Version: **pgAdmin 4 v8.14**).
 4. **Private key** (.pem file) for SSH access to the Bastion.
 5. **Security groups** configured to allow necessary traffic.
 
@@ -53,7 +53,7 @@
 ### 1.4 SSH Tunnel Tab
 1. **Use SSH Tunneling:**  Enable it.
 2. **Tunnel host:**
-   - Enter your **Bastion Host’s Public IP** (`3.85.123.45`).
+   - Enter your **Bastion Host’s Public IP** (`3.85.123.45`) or **Public DNS** (`ec2-3-85-123-45.compute-1.amazonaws.com`).
 3. **Tunnel port:** `22` (default SSH port).
 4. **Username:**
    - Enter your **EC2 username** (`ec2-user` for Amazon Linux).
